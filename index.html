@@ -1,549 +1,214 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<!-- 	Alice Yuan's  Resume
-      Last Updated: Sept 18th 2012
-    -->
-    <head>
-      <title>Alice Yuan's Resume</title>
 
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Alice Yuan : Software Engineer @uwaterloo" />
 
-      <meta name="keywords" content="Alice Yuan Resume" >
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-      <meta name="description" content="Alice Yuan's Resume" >
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-      <style type="text/css">
-      /* clearfix */
-      .clear {
-        clear: both;
-      }
-
-      .clearfix:after {
-        content: ".";
-        display: block;
-        clear: both;
-        visibility: hidden;
-        line-height: 0;
-        height: 0;
-      }
-
-      .clearfix {
-        display: inline-block;
-      }
-
-      * html .clearfix {
-        height: 1%;
-      }
-
-      /* General Styling */
-      body {
-        width: 900px;
-        padding: 1em 1em 10em 1em;
-        margin:0px auto;
-        background: #FFFFFF;
-        font-family: Trebuchet MS, Helvetica, sans-serif;
-        font-size: 14px;
-        color: #333;
-        line-height: 1.25em;
-      }
-      h1{
-        font-size: 3em;
-        font-weight: bold;
-        margin: 0;
-        font-weight: normal;
-        text-transform: none;
-      }
-      h2{
-        font-size: 1.4em;
-        margin: 0 0 1em 0;
-        text-transform: none;
-      }
-      h3{
-        font-size: 1.20em;
-        font-weight: bold;
-        margin: 0 0 .5em 0;
-        text-transform: none;
-      }
-      h4{
-        font-size: 1.1em;
-        font-weight: bold;
-        margin: 0 0 .5em 0;
-        text-transform: none;
-      }
-      h5{
-        font-size: .8em;
-        font-weight: bold;
-        margin: 0 0 .5em 0;
-        text-transform: none;
-      }
-      h6{
-        margin: 0 0 .5em 0;
-        text-transform: none;
-      }
-      a{
-        color: #09A5A5;
-        border-bottom: 1px dashed #BBB;
-        text-decoration: none;
-      }
-      a:hover, a:focus{
-        color: #5A9B9B;
-      }
-      ul,li{
-        padding: 0;
-        list-style: none;
-      }
-
-      /* Layout Styling */
-
-      .col-2{
-        float: left;
-        width: 67%;
-      }
-      /* Misc Styling */
-      .caps-title{
-        text-transform: uppercase;
-      }
-      .no-bullets{
-        list-style: none;
-      }
-      .col-2 .bullet{
-        list-style: circle;
-        margin-left: 3em;
-      }
-      .date-right{
-        font-weight: bold;
-        font-size: 11px;
-        float: right;
-      }
-      .no-margin{
-        margin: 0;
-      }
-
-      /* Header Styling */
-
-      .header{
-        text-align: center;
-        font-family: 'Open Sans', Century Gothic, sans-serif;
-        /* border-top: 1em solid blue; */
-        position: relative;
-        margin-bottom: 1em;
-      }
-      .header h1{
-        font-size: 2em;
-      }
-      .header p{
-        margin: 0;
-      }
-      .header ul.links{
-        margin: 0.5em -4.5em 0.5em 0;
-
-      }
-      .header .links li{
-        padding: 0 3em;
-       color: #24C5BF;
-        text-decoration: none;
-        font-size: 13px;
-        vertical-align: middle;
-        text-align:left;
-        float: left;
-      }
-      .header .links li a{
-        text-decoration: none;
-        font-size: 13px;
-        vertical-align: middle;
-      }
-      .header .links .label{
-        width: 5em;
-        display: block;
-        float: left;
-        display: none;
-      }
-      .header ul{
-        margin: 0;
-      }
-
-      .wrapper{
-      }
-
-      .title-decoration-wrapper{
-        height: 10em;
-        width:  10em;
-        border: 2px solid #333;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        margin:  0 auto;
-      }
-
-      .title-decoration{
-        height: 8.88em;
-        width:  8.88em;
-        border: 1px solid #333;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        margin: .5em;
-      }
-
-      h1.title{
-        vertical-align: middle;
-        padding-top: 12px;
-        font-size: 3em;
-        line-height: 1.2em;
-      }
-
-      .sub-header h3{
-        font-weight: normal;
-        text-align: center;
-        margin-bottom: 2em;
-      }
-      .sub-header .you{
-        color: #7EA5AF;
-        font-size: 1.3em;
-      }
-
-
-
-
-      /* Col-1 Styling */
-
-      .col-1{
-        width: 27%;
-        height: 100%;
-        margin-right: 25px;
-        margin-left: 10px;
-        float: left;
-      }
-      .col-1 ul li{
-        font-size: 1.2em;
-
-      }
-      .col-1 .hint{
-        color: #666;
-        font-size: .8em;
-        margin-right: 1em;
-        margin-top: 1.5em;
-      }
-      .col-1 .skills h2{
-        margin-bottom: 0.5em;
-      }
-      .col-2{
-        height: 100%;
-      }
-      .col-2 li{
-        margin: 0 0 .5em 0;
-      }
-      .col-2 li ul li{
-        margin: 0 0 .5em 1em;
-      }
-      .skills ul{
-        list-style: none;
-      }
-      .skills{
-        clear: both;
-      }
-      .section h4{
-        font-size: 1.1em;
-        width: 95%;
-        border-bottom: 1px solid #568FAF;
-        margin-top: 1em;
-      }
-
-      .section{
-        float: left;
-        width: 95%;
-        margin-bottom: 1em;
-        font-size: .9em;
-      }
-      .section li{
-        padding: 0.3em 0.6em;
-        color: #666;
-        float: left;
-        margin: auto;
-        text-align: center;
-        vertical-align: middle;
-      }
-      .col-2 .experience h2.caps-title{
-        margin: 0 0 1em 0;
-      }
-      .col-2 h2.caps-title{
-        margin: 1em 0 .7em 0;
-      }
-
-      .contents{
-        height: 865px;
-      }
-      .contents h3{
-        color: brown;
-      }
-      .experience h4{
-        margin-top: 1em;
-      }
-      .contents h2{
-        font-family: 'Open Sans', Century Gothic, sans-serif;
-        font-weight: 300;
-        font-size: 1.5em;
-        color: #09A5A5;
-      }
-      .center{
-        margin: 0 auto;
-      }
-      .contents a{
-        color: inherit;
-      }
-
-      /* print styling */
-      @media print{
-        body{
-         padding: 0;
-         <!--color: black;-->
-       }
-       a{
-         <!--color: #333;-->
-      }
-    }
-
-
-
-
-    </style>
-  <!--[if IE]>
-    <style>
-    </style>
-    <![endif]-->
-  <!--[if lt IE 9]>
-    <style>
-        .title-decoration-wrapper{
-          height: auto;
-          width:  auto;
-          border: none;
-          border-radius: 100%;
-            -webkit-border-radius: 100%;
-            -moz-border-radius: 100%;
-          margin:  0 auto;
-        }
-
-        .title-decoration{
-          height: auto;
-          width:  auto;
-          border: none;
-          border-radius: 100%;
-            -webkit-border-radius: 100%;
-            -moz-border-radius: 100%;
-          margin: .5em;
-        }
-
-        h1.title{
-          vertical-align: middle;
-          padding-top: 12px;
-          font-size: 4em;
-          line-height: 1.2em;
-        }
-
-    </style>
-    <![endif]-->
-  <!--[if lt IE 8]>
-    <style>
-      ul.links{
-        padding-left: 9em;
-      }
-
-    </style>
-    <![endif]-->
-
+    <title>Alice Yuan's Resume</title>
   </head>
 
-
   <body>
-    <div class="header">
-<!--       <div>
-       <div class="wrapper">
-        <div class="title-decoration-wrapper">
-          <div class="title-decoration">
-            <h1 class="title">Alice Yuan</h1>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/AliceYuan/StaticSite">View on GitHub</a>
+
+          <h1 id="project_title">Alice Yuan</h1>
+          <h2 id="project_tagline">Software Engineer @uwaterloo</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/AliceYuan/StaticSite/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/AliceYuan/StaticSite/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+       <h1 class="title">Alice Yuan</h1>
+          <div class="center">
+            <ul class="links clearfix">
+              <li><span class="label">email</span> <a href="mailto:me@aliceyuan.ca">me@aliceyuan.ca</a></li>
+                      <li><span class="label">site</span>Software Engineering</li>
+
+              <li><span class="label">github</span> <a href="//github.com/AliceYuan">http://github.com/AliceYuan</a></li>
+              <!-- <li><span class="label">twitter</span> <a href="//twitter.com/Names_Alice">@Names_Alice</a></li> -->
+            </ul>
           </div>
-        </div>
-        <div class="hide"></div>
-      </div>
-    </div>
- -->    <!-- <p>Software Engineering</p> -->
- <h1 class="title">Alice Yuan</h1>
-    <div class="center">
-      <ul class="links clearfix">
-        <li><span class="label">email</span> <a href="mailto:me@aliceyuan.ca">me@aliceyuan.ca</a></li>
-                <li><span class="label">site</span>Software Engineering</li>
+          <div class="sub-header">
+            <h3> I love <span>learning</span>. I love <span>challenges</span>. I love <span>programming</span> <span>beautiful</span>, <span>intuitive</span> and <span>functional</span> <span>applications</span>. </h3>
+            <!-- <h3> I'd love to work for <span class="you">you</span>.</h3> -->
+          </div>
+        </div> <!-- end header -->
 
-        <li><span class="label">github</span> <a href="//github.com/AliceYuan">http://github.com/AliceYuan</a></li>
-        <!-- <li><span class="label">twitter</span> <a href="//twitter.com/Names_Alice">@Names_Alice</a></li> -->
-      </ul>
-    </div>
-    <div class="sub-header">
-      <h3> I love <span>learning</span>. I love <span>challenges</span>. I love <span>programming</span> <span>beautiful</span>, <span>intuitive</span> and <span>functional</span> <span>applications</span>. </h3>
-      <!-- <h3> I'd love to work for <span class="you">you</span>.</h3> -->
-    </div>
-  </div> <!-- end header -->
+        <div class="contents">
+          <div class="col-1">
+            <div class="skills clearfix">
+              <h2 class="caps-title">Skills</h2>
+              <div class="section web">
+                <h4> Web Development </h4>
+                <ul>
+                  <li class="n1">PHP</li>
+                  <li class="n3">Python</li>
+                  <li class="n1">JSON</li>
+                  <li class="n6">Javascript</li>
+                  <li class="n8">Jquery</li>
+                  <li class="n9">CSS/CSS3</li>
+                  <li class="n11">HTML5</li>
+                  <li class="n4">Google App Engine</li>
+                  <li class="n4">Mobile/ Responsive Web Design</li>
+                </ul>
+              </div> <!-- end web -->
 
-  <div class="contents">
-    <div class="col-1">
-      <div class="skills clearfix">
-        <h2 class="caps-title">Skills</h2>
-        <div class="section web">
-          <h4> Web Development </h4>
-          <ul>
-            <li class="n1">PHP</li>
-            <li class="n3">Python</li>
-            <li class="n1">JSON</li>
-            <li class="n6">Javascript</li>
-            <li class="n8">Jquery</li>
-            <li class="n9">CSS/CSS3</li>
-            <li class="n11">HTML5</li>
-            <li class="n4">Google App Engine</li>
-            <li class="n4">Mobile/ Responsive Web Design</li>
-          </ul>
-        </div> <!-- end web -->
+              <div class="section applications">
+                <h4> Applications Development </h4>
+                <ul>
+                  <li class="n1">Android - Java <br></li>
+                  <li class="n1">C</li>
+                  <li class="n2">C++</li>
+                  <li class="n3">OSX Desktop - Objective-C</li>
+                </ul>
+              </div><!-- end applications -->
 
-        <div class="section applications">
-          <h4> Applications Development </h4>
-          <ul>
-            <li class="n1">Android - Java <br></li>
-            <li class="n1">C</li>
-            <li class="n2">C++</li>
-            <li class="n3">OSX Desktop - Objective-C</li>
-          </ul>
-        </div><!-- end applications -->
+              <div class="section tools">
+                <h4>Tools / Knowledge</h4>
+                <ul>
+                  <li class="n1">Git</li>
+                  <li class="n2">Mercurial</li>
+                  <li class="n3">Bash</li>
+                  <li class="n4">Vim</li>
+                  <li class="n4">UNIX</li>
+                  <li class="n8">Adobe Creative Suite</li>
+                  <li class="n8">NFC Technology</li>
+                </ul>
+              </div> <!-- end tools -->
 
-        <div class="section tools">
-          <h4>Tools / Knowledge</h4>
-          <ul>
-            <li class="n1">Git</li>
-            <li class="n2">Mercurial</li>
-            <li class="n3">Bash</li>
-            <li class="n4">Vim</li>
-            <li class="n4">UNIX</li>
-            <li class="n8">Adobe Creative Suite</li>
-            <li class="n8">NFC Technology</li>
-          </ul>
-        </div> <!-- end tools -->
+              <div class="section soft-skills">
+                <h4>Soft Skills</h4>
+                <ul>
+                  <li class="n1">Leadership</li>
+                  <li class="n1">Design Background</li>
+                  <li class="n1">UI/UX knowledge</li>
+                  <li class="n1">Public Speaking</li>
+                </ul>
+              </div> <!-- end soft-skills -->
 
-        <div class="section soft-skills">
-          <h4>Soft Skills</h4>
-          <ul>
-            <li class="n1">Leadership</li>
-            <li class="n1">Design Background</li>
-            <li class="n1">UI/UX knowledge</li>
-            <li class="n1">Public Speaking</li>
-          </ul>
-        </div> <!-- end soft-skills -->
+              <div class="section soft-skills">
+                <h4>Interests</h4>
+                <ul>
+                  <li class="n1">UI/UX</li>
+                  <li class="n1">Android</li>
+                  <li class="n1">Animations and Graphics</li>
+                  <li class="n1">Games</li>
+                  <li class="n1">HCI</li>
+                  <li class="n1">R&D</li>
+                </ul>
+              </div>
 
-        <div class="section soft-skills">
-          <h4>Interests</h4>
-          <ul>
-            <li class="n1">UI/UX</li>
-            <li class="n1">Android</li>
-            <li class="n1">Animations and Graphics</li>
-            <li class="n1">Games</li>
-            <li class="n1">HCI</li>
-            <li class="n1">R&D</li>
-          </ul>
-        </div>
+            </div>
+          </div> <!-- end col-1 -->
 
-      </div>
-    </div> <!-- end col-1 -->
+          <div class="col-2">
+            <div class="experience">
+              <h2 class="caps-title">Work Experience</h2>
+              <ul>
+                <li>
+                  <h4><span>Microsoft</span> - Software Development Engineer</h4>
+                  <h5>Redmond, CA <span class="date-right">Sept. 2013 - Dec. 2013</span></h5>
+                  <ul>
+                    <li>
+                      Windows User Experience Development Team
+                    </li>
+                  </ul>
+                </li>
 
-    <div class="col-2">
-      <div class="experience">
-        <h2 class="caps-title">Work Experience</h2>
-        <ul>
-          <li>
-            <h4><span>Microsoft</span> - Software Development Engineer</h4>
-            <h5>Redmond, CA <span class="date-right">Sept. 2013 - Dec. 2013</span></h5>
-            <ul>
-              <li>
-                Windows User Experience Development Team
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <h4><span>Xtreme Labs</span> - Agile Engineer</h4>
-            <h5>Toronto, ON <span class="date-right">Jan 2013 - Apr. 2013</span></h5>
-            <h5>+ NFC, Android, JSON, Mac OSX Desktop (Objective C), Python Scripting, Git</h5>
-            <ul>
-              <li>
-                Developed a Mac OSX plugin application for xCode which automatically generated iOS code given a defined JSON data template
-              </li>
-              <li>
-                Prototyped an application exploring NFC communication technologies on Android.
-              </li>
-            </ul>
-          </li>
+                <li>
+                  <h4><span>Xtreme Labs</span> - Agile Engineer</h4>
+                  <h5>Toronto, ON <span class="date-right">Jan 2013 - Apr. 2013</span></h5>
+                  <h5>+ NFC, Android, JSON, Mac OSX Desktop (Objective C), Python Scripting, Git</h5>
+                  <ul>
+                    <li>
+                      Developed a Mac OSX plugin application for xCode which automatically generated iOS code given a defined JSON data template
+                    </li>
+                    <li>
+                      Prototyped an application exploring NFC communication technologies on Android.
+                    </li>
+                  </ul>
+                </li>
 
 
-          <li>
-            <h4><span>Myplanet Digital</span> - Web Developer </h4>
-            <h5>Markham, ON <span class="date-right">May 2012 - Aug. 2012</span></h5>
-            <h5>+ UI/UX front End Development, CSS3, HTML5, Javascript, Drupal, Responsive Web, Git </h5>
-            <ul>
-              <li>
-                Developed features for customizable, large scale websites with a focus on excellent user interface and experience
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+                <li>
+                  <h4><span>Myplanet Digital</span> - Web Developer </h4>
+                  <h5>Markham, ON <span class="date-right">May 2012 - Aug. 2012</span></h5>
+                  <h5>+ UI/UX front End Development, CSS3, HTML5, Javascript, Drupal, Responsive Web, Git </h5>
+                  <ul>
+                    <li>
+                      Developed features for customizable, large scale websites with a focus on excellent user interface and experience
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
 
 
-      <div class="projects">
-        <h2 class="caps-title">Relevant Experience</h2>
-        <ul>
-          <li>
-            <h4>Velocity Incubator Resident Program</h4>
-            <h5>Waterloo, ON <span class="date-right">May. 2013 - Present</span></h5>
-            <ul>
-              <li>Worked with entrepreneurially-inclined students to create and pitch business proposals for start-up ideas</li>
-              <li>Collaborated on application ideas, developed prototypes and constantly pivoted idea based on feedback</li>
-            </ul>
-          </li>
-          <li>
-            <h4>LinkedIn Hackathon</h4>
-            <h5>Toronto, ON <span class="date-right">Feb. 2013</span></h5>
-            <ul>
-              <li>Participated in a 24 hour hackathon and entered the final round of pitching</li>
-              <li>Created a mobile web application displaying the real time data of bus arrival times with the closest proximity to current location <a href="https://github.com/AliceYuan/LinkedinHackTransit">https://github.com/AliceYuan/LinkedinHackTransit</a></li>
+            <div class="projects">
+              <h2 class="caps-title">Relevant Experience</h2>
+              <ul>
+                <li>
+                  <h4>Velocity Incubator Resident Program</h4>
+                  <h5>Waterloo, ON <span class="date-right">May. 2013 - Present</span></h5>
+                  <ul>
+                    <li>Worked with entrepreneurially-inclined students to create and pitch business proposals for start-up ideas</li>
+                    <li>Collaborated on application ideas, developed prototypes and constantly pivoted idea based on feedback</li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>LinkedIn Hackathon</h4>
+                  <h5>Toronto, ON <span class="date-right">Feb. 2013</span></h5>
+                  <ul>
+                    <li>Participated in a 24 hour hackathon and entered the final round of pitching</li>
+                    <li>Created a mobile web application displaying the real time data of bus arrival times with the closest proximity to current location <a href="https://github.com/AliceYuan/LinkedinHackTransit">https://github.com/AliceYuan/LinkedinHackTransit</a></li>
 
-            </ul>
-          </li>
-          <li class="no-margin">
-            <h4>Google Computer Science Summer Institute - Student </h4>
-            <h5>Mountain View, CA <span class="date-right">Jun. 2011 - Jul. 2011</span></h5>
-            <ul>
-              <li>Built, deployed and demoed to Google employees a web application game created using App Engine SDK for Python and Javascript within the constraint of 4 days</li>
-              <li>Overtook responsibility as project manager who prioritized and motivated team toward project completion </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+                  </ul>
+                </li>
+                <li class="no-margin">
+                  <h4>Google Computer Science Summer Institute - Student </h4>
+                  <h5>Mountain View, CA <span class="date-right">Jun. 2011 - Jul. 2011</span></h5>
+                  <ul>
+                    <li>Built, deployed and demoed to Google employees a web application game created using App Engine SDK for Python and Javascript within the constraint of 4 days</li>
+                    <li>Overtook responsibility as project manager who prioritized and motivated team toward project completion </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
 
-      <div class="extracurricular">
-        <h2 class="caps-title">Extracurricular</h2>
-        <ul>
-          <li>Academic Student Representative<span class="date-right">Sep. 2011 - Present</span></li>
-          <li class="bullet">Represented the student body of the 2016 software program.</li>
-          <li>Waterloo Engineering Ambassador<span class="date-right">Sep. 2011 - Present</span></li>
-          <li class="bullet">Volunteered for various leadership and university recruiting events.</li>
-          <li>Grace Hopper Conference Attendant<span class="date-right">Oct. 2012</span></li>
-        </ul>
-      </div>
+            <div class="extracurricular">
+              <h2 class="caps-title">Extracurricular</h2>
+              <ul>
+                <li>Academic Student Representative<span class="date-right">Sep. 2011 - Present</span></li>
+                <li class="bullet">Represented the student body of the 2016 software program.</li>
+                <li>Waterloo Engineering Ambassador<span class="date-right">Sep. 2011 - Present</span></li>
+                <li class="bullet">Volunteered for various leadership and university recruiting events.</li>
+                <li>Grace Hopper Conference Attendant<span class="date-right">Oct. 2012</span></li>
+              </ul>
+            </div>
 
-      <div class="education">
-        <h2 class="caps-title">Education</h2>
-        <ul class="no-bullets">
-          <li>
-            Pursuing Bachelor of Software Engineering<span class="date-right">Sep. 2011 - Present</span> <br>
-            Co-operative program, University of Waterloo
-          </li>
-        </ul>
-      </div>
-    </div> <!-- end col-2 -->
-  </div> <!-- end contents -->
+            <div class="education">
+              <h2 class="caps-title">Education</h2>
+              <ul class="no-bullets">
+                <li>
+                  Pursuing Bachelor of Software Engineering<span class="date-right">Sep. 2011 - Present</span> <br>
+                  Co-operative program, University of Waterloo
+                </li>
+              </ul>
+            </div>
+          </div> <!-- end col-2 -->
+        </div> <!-- end contents -->
 </body>
 </html>
