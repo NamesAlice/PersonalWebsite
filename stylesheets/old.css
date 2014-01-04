@@ -1,0 +1,445 @@
+@import url(pygment_trac.css);
+/*******************************************************************************
+Slate Theme for GitHub Pages
+by Jason Costello, @jsncostello
+*******************************************************************************/
+/*******************************************************************************
+MeyerWeb Reset
+*******************************************************************************/
+/* line 24, ../sass/old.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 34, ../sass/old.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 38, ../sass/old.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 42, ../sass/old.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 48, ../sass/old.scss */
+#footer_wrap {
+  margin-bottom: 50px;
+}
+
+/* ========================================================================
+/* Jobmine resume css
+/* ========================================================================
+
+/* clearfix */
+/* line 57, ../sass/old.scss */
+.clear {
+  clear: both;
+}
+
+/* line 61, ../sass/old.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 70, ../sass/old.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 74, ../sass/old.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 77, ../sass/old.scss */
+html {
+  margin-bottom: 40px;
+}
+
+/* General Styling */
+/* line 83, ../sass/old.scss */
+body {
+  width: 900px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.25em;
+}
+
+/* line 92, ../sass/old.scss */
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0;
+  font-weight: normal;
+  text-transform: none;
+}
+
+/* line 99, ../sass/old.scss */
+h2 {
+  font-size: 1.4em;
+  margin: 0 0 1em 0;
+  text-transform: none;
+}
+
+/* line 104, ../sass/old.scss */
+h3 {
+  font-size: 1.20em;
+  font-weight: bold;
+  margin: 0 0 .5em 0;
+  text-transform: none;
+}
+
+/* line 110, ../sass/old.scss */
+h4 {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 0 .5em 0;
+  text-transform: none;
+}
+
+/* line 116, ../sass/old.scss */
+h5 {
+  font-size: .8em;
+  font-weight: bold;
+  margin: 0 0 .5em 0;
+  text-transform: none;
+}
+
+/* line 122, ../sass/old.scss */
+h6 {
+  margin: 0 0 .5em 0;
+  text-transform: none;
+}
+
+/* line 126, ../sass/old.scss */
+a {
+  color: #09A5A5;
+  border-bottom: 1px dashed #BBB;
+  text-decoration: none;
+}
+
+/* line 131, ../sass/old.scss */
+a:hover, a:focus {
+  color: #5A9B9B;
+}
+
+/* line 134, ../sass/old.scss */
+ul, li {
+  padding: 0;
+  list-style: none;
+}
+
+/* Layout Styling */
+/* line 141, ../sass/old.scss */
+.col-2 {
+  float: left;
+  width: 67%;
+}
+
+/* Misc Styling */
+/* line 146, ../sass/old.scss */
+.caps-title {
+  text-transform: uppercase;
+}
+
+/* line 149, ../sass/old.scss */
+.no-bullets {
+  list-style: none;
+}
+
+/* line 152, ../sass/old.scss */
+.col-2 .bullet {
+  list-style: circle;
+  margin-left: 3em;
+}
+
+/* line 156, ../sass/old.scss */
+.date-right {
+  font-weight: bold;
+  font-size: 11px;
+  float: right;
+}
+
+/* line 161, ../sass/old.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* Header Styling */
+/* line 167, ../sass/old.scss */
+.header {
+  text-align: center;
+  font-family: 'Open Sans', Century Gothic, sans-serif;
+  /* border-top: 1em solid blue; */
+  position: relative;
+  margin-bottom: 1em;
+}
+
+/* line 174, ../sass/old.scss */
+.header h1 {
+  font-size: 2em;
+}
+
+/* line 177, ../sass/old.scss */
+.header p {
+  margin: 0;
+}
+
+/* line 180, ../sass/old.scss */
+.header ul.links {
+  margin: 0.5em -4.5em 0.5em 0;
+}
+
+/* line 184, ../sass/old.scss */
+.header .links li {
+  padding: 0 3em;
+  color: #24C5BF;
+  text-decoration: none;
+  font-size: 13px;
+  vertical-align: middle;
+  text-align: left;
+  float: left;
+}
+
+/* line 193, ../sass/old.scss */
+.header .links li a {
+  text-decoration: none;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+/* line 198, ../sass/old.scss */
+.header .links .label {
+  width: 5em;
+  display: block;
+  float: left;
+  display: none;
+}
+
+/* line 204, ../sass/old.scss */
+.header ul {
+  margin: 0;
+}
+
+/* line 211, ../sass/old.scss */
+.title-decoration-wrapper {
+  height: 10em;
+  width: 10em;
+  border: 2px solid #333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* line 221, ../sass/old.scss */
+.title-decoration {
+  height: 8.88em;
+  width: 8.88em;
+  border: 1px solid #333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  margin: .5em;
+}
+
+/* line 231, ../sass/old.scss */
+h1.title {
+  vertical-align: middle;
+  padding-top: 12px;
+  font-size: 3em;
+  line-height: 1.2em;
+}
+
+/* line 238, ../sass/old.scss */
+.sub-header h3 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* line 243, ../sass/old.scss */
+.sub-header .you {
+  color: #7EA5AF;
+  font-size: 1.3em;
+}
+
+/* Col-1 Styling */
+/* line 253, ../sass/old.scss */
+.col-1 {
+  width: 27%;
+  margin-right: 25px;
+  margin-left: 10px;
+  float: left;
+}
+
+/* line 259, ../sass/old.scss */
+.col-1 ul li {
+  font-size: 1.2em;
+}
+
+/* line 263, ../sass/old.scss */
+.col-1 .hint {
+  color: #666;
+  font-size: .8em;
+  margin-right: 1em;
+  margin-top: 1.5em;
+}
+
+/* line 269, ../sass/old.scss */
+.col-1 .skills h2 {
+  margin-bottom: 0.5em;
+}
+
+/* line 272, ../sass/old.scss */
+.col-2 li {
+  margin: 0 0 .5em 0;
+}
+
+/* line 275, ../sass/old.scss */
+.col-2 li ul li {
+  margin: 0 0 .5em 1em;
+}
+
+/* line 278, ../sass/old.scss */
+.skills ul {
+  list-style: none;
+}
+
+/* line 281, ../sass/old.scss */
+.skills {
+  clear: both;
+}
+
+/* line 284, ../sass/old.scss */
+.section h4 {
+  font-size: 1.1em;
+  width: 95%;
+  border-bottom: 1px solid #568FAF;
+  margin-top: 1em;
+}
+
+/* line 291, ../sass/old.scss */
+.section {
+  float: left;
+  width: 95%;
+  margin-bottom: 1em;
+  font-size: .9em;
+}
+
+/* line 297, ../sass/old.scss */
+.section li {
+  padding: 0.3em 0.6em;
+  color: #666;
+  float: left;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 305, ../sass/old.scss */
+.col-2 .experience h2.caps-title {
+  margin: 0 0 1em 0;
+}
+
+/* line 308, ../sass/old.scss */
+.col-2 h2.caps-title {
+  margin: 1em 0 .7em 0;
+}
+
+/* line 312, ../sass/old.scss */
+.contents h3 {
+  color: brown;
+}
+
+/* line 315, ../sass/old.scss */
+.experience h4 {
+  margin-top: 1em;
+}
+
+/* line 318, ../sass/old.scss */
+.contents h2 {
+  font-family: 'Open Sans', Century Gothic, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #09A5A5;
+}
+
+/* line 324, ../sass/old.scss */
+.center {
+  margin: 0 auto;
+}
+
+/* line 327, ../sass/old.scss */
+.contents a {
+  color: inherit;
+}
+
+/* print styling */
+@media print {
+  /* line 333, ../sass/old.scss */
+  body {
+    padding: 0;
+  }
+}
+/* line 338, ../sass/old.scss */
+.title-decoration-wrapper {
+  height: auto;
+  width: auto;
+  border: none;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  margin: 0 auto;
+}
+
+/* line 348, ../sass/old.scss */
+.title-decoration {
+  height: auto;
+  width: auto;
+  border: none;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  margin: .5em;
+}
+
+/* line 358, ../sass/old.scss */
+h1.title {
+  vertical-align: middle;
+  padding-top: 12px;
+  font-size: 4em;
+  line-height: 1.2em;
+}

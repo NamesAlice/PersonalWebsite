@@ -1,0 +1,478 @@
+@import url("reset.css");
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+/* Global Reset */
+/* line 10, ../sass/main.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../sass/main.scss */
+html, body {
+  height: 100%;
+}
+
+/* General Demo Style */
+/* line 18, ../sass/main.scss */
+body {
+  color: white;
+  font-family: 'Open Sans', Century Gothic, sans-serif;
+  font-size: 16px;
+  background: url("../images/redox_01.png");
+  min-width: 1080px;
+}
+
+/* line 25, ../sass/main.scss */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/main.scss */
+.container {
+  width: 100%;
+  position: relative;
+}
+
+/* line 33, ../sass/main.scss */
+.clr {
+  clear: both;
+}
+
+/* line 36, ../sass/main.scss */
+h1 {
+  color: grey;
+  font-size: 24px;
+  position: relative;
+  font-weight: 400;
+  padding: 30px 5px 10px 5px;
+  margin: 0px 15px;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+/* line 49, ../sass/main.scss */
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+/* line 54, ../sass/main.scss */
+.posts li {
+  line-height: 1.75em;
+}
+
+/* line 58, ../sass/main.scss */
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+/* line 70, ../sass/main.scss */
+.site {
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
+/* line 77, ../sass/main.scss */
+#header {
+  position: fixed;
+  height: 180px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFFFFFFF');
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(5%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(top, #ffffff 5%, rgba(255, 255, 255, 0) 100%);
+  background-image: -moz-linear-gradient(top, #ffffff 5%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(top, #ffffff 5%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(top, #ffffff 5%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* line 88, ../sass/main.scss */
+.header .inner {
+  margin: auto;
+  background: url("../images/celestial010-t.png");
+  overflow: hidden;
+}
+/* line 92, ../sass/main.scss */
+.header .inner h1 {
+  font-family: 'Josefin Sans', 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 3em;
+  color: white;
+  margin-top: -0.3em;
+  margin-right: 20px;
+  float: left;
+}
+/* line 101, ../sass/main.scss */
+.header .inner .contact {
+  font-size: 2em;
+  line-height: 2em;
+}
+/* line 104, ../sass/main.scss */
+.header .inner .contact a {
+  margin: 0 10px;
+  transition: all 0.3s linear;
+  float: left;
+}
+/* line 110, ../sass/main.scss */
+.header .inner .contact a:hover {
+  color: rgba(152, 255, 255, 0.5);
+}
+/* line 113, ../sass/main.scss */
+.header .inner .contact .flaticon-arrow {
+  font-size: 14px;
+  line-height: 55px;
+}
+/* line 117, ../sass/main.scss */
+.header .inner .contact [class^="flaticon-"]:before, .header .inner .contact [class*=" flaticon-"]:before, .header .inner .contact [class^="flaticon-"]:after, .header .inner .contact [class*=" flaticon-"]:after {
+  margin-left: 0;
+  font-size: 27px;
+}
+/* line 123, ../sass/main.scss */
+.header .inner p {
+  font-size: 1.25em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+/* line 127, ../sass/main.scss */
+.header .inner p [class^="flaticon-"]:before, .header .inner p [class*=" flaticon-"]:before, .header .inner p [class^="flaticon-"]:after, .header .inner p [class*=" flaticon-"]:after {
+  margin-left: 10px;
+}
+
+/* line 134, ../sass/main.scss */
+.header.header-shrink .inner {
+  margin: 15px 20px;
+  height: 60px;
+  padding: 10px 50px;
+  min-width: 1080px;
+  width: calc(100% - 140px);
+  width: -webkit-calc(100% - 140px);
+  width: -moz-calc(100% - 140px);
+  width: -o-calc(100% - 140px);
+  background-color: rgba(49, 192, 196, 0.9);
+}
+/* line 144, ../sass/main.scss */
+.header.header-shrink .inner p {
+  visibility: hidden;
+}
+
+/* line 149, ../sass/main.scss */
+.header.header-show .inner {
+  min-height: 250px;
+  padding: 50px 50px;
+  min-width: 1080px;
+  width: calc(100% - 200px);
+  width: -webkit-calc(100% - 100px);
+  width: -moz-calc(100% - 100px);
+  width: -o-calc(100% - 100px);
+  background-color: #006063;
+}
+/* line 158, ../sass/main.scss */
+.header.header-show .inner p {
+  visibility: visible;
+}
+/* line 161, ../sass/main.scss */
+.header.header-show .inner .down-arrow::after {
+  display: block;
+  float: left;
+  content: '\2193';
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 3em;
+  line-height: 1;
+}
+
+/* line 171, ../sass/main.scss */
+.header-space {
+  margin-top: 400px;
+}
+
+/* line 176, ../sass/main.scss */
+.header .inner {
+  transition: all 0.5s linear;
+}
+
+/* line 181, ../sass/main.scss */
+.header .left-col {
+  width: 50%;
+  float: left;
+}
+
+/* line 186, ../sass/main.scss */
+.header .right-col {
+  width: 50%;
+  float: left;
+}
+
+/* line 191, ../sass/main.scss */
+.container .header .ss-links {
+  z-index: 100;
+  clear: both;
+}
+/* line 194, ../sass/main.scss */
+.container .header .ss-links [class^="flaticon-"]:before, .container .header .ss-links [class*=" flaticon-"]:before, .container .header .ss-links [class^="flaticon-"]:after, .container .header .ss-links [class*=" flaticon-"]:after {
+  margin-left: 0;
+  margin-top: 2px;
+  float: left;
+  width: 40px;
+  text-align: center;
+}
+/* line 202, ../sass/main.scss */
+.container .header .ss-links .icon-bigger:before, .container .header .ss-links .icon-bigger:after {
+  font-size: 25px;
+  vertical-align: middle;
+  position: center;
+}
+/* line 208, ../sass/main.scss */
+.container .header .ss-links .flaticon-code3:before, .container .header .ss-links .flaticon-code3:after {
+  margin-top: 3px;
+}
+
+/* line 213, ../sass/main.scss */
+.ss-links a:before {
+  content: attr(data-icon);
+}
+
+/* line 217, ../sass/main.scss */
+.ss-links a {
+  background: rgba(0, 0, 0, 0.2);
+  float: left;
+  font-size: 1em;
+  width: 40px;
+  height: 40px;
+  margin: 5px 15px;
+  line-height: 2.3em;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: block;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+/* line 235, ../sass/main.scss */
+.ss-links a:hover {
+  background: rgba(36, 197, 191, 0.75);
+}
+/* line 237, ../sass/main.scss */
+.ss-links a:hover span {
+  margin-left: 55px;
+  color: #fff;
+  visibility: visible;
+}
+
+/* line 244, ../sass/main.scss */
+.ss-links a.active:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* line 248, ../sass/main.scss */
+.ss-links a:active {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* line 252, ../sass/main.scss */
+.ss-links a.active {
+  background: rgba(36, 197, 191, 0.75);
+}
+
+/* line 256, ../sass/main.scss */
+.ss-links a span {
+  font-weight: normal;
+  white-space: nowrap;
+  margin-left: 20px;
+  visibility: hidden;
+  position: absolute;
+  color: rgba(0, 0, 0, 0);
+  -webkit-transition: all 0.6s linear;
+  -moz-transition: all 0.6s linear;
+  -o-transition: all 0.6s linear;
+  -ms-transition: all 0.6s linear;
+  transition: all 0.6s linear;
+}
+
+/*******************************************************
+*******************************************************/
+/* line 273, ../sass/main.scss */
+.tags.circle {
+  height: inherit;
+  width: inherit;
+  position: relative;
+}
+
+/* line 279, ../sass/main.scss */
+.tags.circle div {
+  height: 70px;
+  width: 70px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  border: rgba(61, 64, 85, 0.3) 8px solid;
+  background-color: #fff;
+  position: absolute;
+  color: black;
+}
+/* line 291, ../sass/main.scss */
+.tags.circle div span {
+  height: 70px;
+  width: 70px;
+  display: block;
+  position: absolute;
+  line-height: 70px;
+}
+
+/* line 300, ../sass/main.scss */
+.ss-large .tags.circle div {
+  top: 37%;
+  left: 37%;
+}
+
+/* line 305, ../sass/main.scss */
+.ss-medium .tags.circle div {
+  top: 29%;
+  left: 29%;
+}
+
+/* line 310, ../sass/main.scss */
+.header-space {
+  margin-bottom: 50%;
+}
+
+/* line 314, ../sass/main.scss */
+.title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+/* line 319, ../sass/main.scss */
+.title a {
+  color: #a00;
+}
+
+/* line 323, ../sass/main.scss */
+.title a:hover {
+  color: #000;
+}
+
+/* line 327, ../sass/main.scss */
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+/* line 332, ../sass/main.scss */
+.header a.extra:hover {
+  color: #000;
+}
+
+/* line 336, ../sass/main.scss */
+.meta {
+  color: #aaa;
+}
+
+/* line 340, ../sass/main.scss */
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+/* line 348, ../sass/main.scss */
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+/* line 353, ../sass/main.scss */
+.footer .contact a {
+  color: #8085C1;
+}
+
+/* line 357, ../sass/main.scss */
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+/* line 363, ../sass/main.scss */
+.footer .rss img {
+  border: 0;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+/* standard */
+/* line 374, ../sass/main.scss */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+/* line 380, ../sass/main.scss */
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+/* line 384, ../sass/main.scss */
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+/* line 390, ../sass/main.scss */
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+/* line 395, ../sass/main.scss */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+/* line 401, ../sass/main.scss */
+.post pre.terminal code {
+  background-color: #333;
+}
+
+/* line 405, ../sass/main.scss */
+.hide {
+  display: none;
+}
+
+/* line 409, ../sass/main.scss */
+.ss-row-title h2 {
+  color: rgba(15, 156, 160, 0.8);
+  text-shadow: 1px 0px 1px rgba(106, 131, 163, 0.5);
+}

@@ -1,0 +1,82 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-arrow:before {
+	content: "\e000";
+}
+.flaticon-box1:before {
+	content: "\e001";
+}
+.flaticon-brush7:before {
+	content: "\e002";
+}
+.flaticon-career:before {
+	content: "\e003";
+}
+.flaticon-clock3:before {
+	content: "\e004";
+}
+.flaticon-code11:before {
+	content: "\e005";
+}
+.flaticon-code3:before {
+	content: "\e006";
+}
+.flaticon-dark:before {
+	content: "\e007";
+}
+.flaticon-digital:before {
+	content: "\e008";
+}
+.flaticon-earth16:before {
+	content: "\e009";
+}
+.flaticon-eye36:before {
+	content: "\e00a";
+}
+.flaticon-food9:before {
+	content: "\e00b";
+}
+.flaticon-game:before {
+	content: "\e00c";
+}
+.flaticon-hans:before {
+	content: "\e00d";
+}
+.flaticon-joystick2:before {
+	content: "\e00e";
+}
+.flaticon-month1:before {
+	content: "\e00f";
+}
+.flaticon-paint41:before {
+	content: "\e010";
+}
+.flaticon-palette3:before {
+	content: "\e011";
+}
+.flaticon-pdf:before {
+	content: "\e012";
+}
+.flaticon-photos1:before {
+	content: "\e013";
+}
+.flaticon-robot3:before {
+	content: "\e014";
+}
+.flaticon-university2:before {
+	content: "\e015";
+}
