@@ -221,9 +221,6 @@ $(function() {
 
     $('nav.ss-links a').each(function(i) {
         var $el = $(this);
-        // if ($el.attr('filter') != 'art') {
-        //     $el.addClass('active');
-        // }
         $el.hover(function() {
             spanWidth = $(this).children('span').width() + 20;
             $(this).css('margin-right',spanWidth+'px');
@@ -262,13 +259,11 @@ $(function() {
                 rotateDeg = 360 + rotateVal*(j - (n-1)/2);
             }
             $tagEl.css('-webkit-transform', 'rotate(-'+ rotateDeg +'deg) translate('+circleSize+'px)');
+            $tagEl.css('-ms-transform', 'rotate(-'+ rotateDeg +'deg) translate('+circleSize+'px)');
+            $tagEl.css('transform', 'rotate(-'+ rotateDeg +'deg) translate('+circleSize+'px)');
             $tagEl.children('span').css('-webkit-transform', 'rotate('+ rotateDeg +'deg)');
 
         });
     
    });
-
-
-
-    
 });
