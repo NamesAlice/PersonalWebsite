@@ -1,4 +1,5 @@
-@import "compass/css3/transition";
+// @import "compass/css3/transition";
+@import "compass";
 
 .ss-container{
     width: 100%;
@@ -46,16 +47,10 @@
     border-radius: 50%;
     display: block;
     text-align: left;
-    -webkit-box-shadow: 
+    @include box-shadow(
 		0px 2px 5px rgba(0,0,0,0.7) inset, 
-		0px 0px 0px 12px rgba(61,64,85,0.3);
-    -moz-box-shadow: 
-		0px 2px 5px rgba(0,0,0,0.7) inset, 
-		0px 0px 0px 12px rgba(61,64,85,0.3);
-    box-shadow: 
-		0px 2px 5px rgba(0,0,0,0.7) inset, 
-		0px 0px 0px 12px rgba(61,64,85,0.3);
-	position: static;
+		0px 0px 0px 12px rgba(61,64,85,0.3));
+  	position: static;
 
 	h3 {
 		display: none;
@@ -113,21 +108,19 @@
 .ss-circle-deco:before{
 	width: 24%;
 	height: 0px;
-	border-bottom: 5px dotted #78C;
 	border-bottom: 5px dotted rgba(14, 105, 156, 0.5);
-	-webkit-box-shadow: 0px 1px 1px #fff;
-	-moz-box-shadow: 0px 1px 1px #fff;
-	box-shadow: 0px 1px 1px #fff;
+  @include box-shadow(0px 1px 1px #fff);
 	position: absolute;
 	top: 50%;
 	content: '';
 	margin-top: -3px;
 }
+
 .ss-circle-deco:after{
 	width: 0px;
 	height: 0px;
 	border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+  border-bottom: 10px solid transparent;
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -157,7 +150,7 @@
 }
 
 .ss-container .description{
-    margin-top: 34px;
+  margin-top: 34px;
 	padding: 30px 15px;
 	background: rgba(15, 156, 160, 0.8) url('../images/celestial011-t.png');
 	text-shadow: 1px 1px 1px rgba(12, 120, 120, 0.8)

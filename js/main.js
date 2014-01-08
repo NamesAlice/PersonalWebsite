@@ -230,37 +230,6 @@ $(function() {
         }, function() {
             $(this).css('margin-right',15+'px');
         });
-
-        // $el.click(function() {
-            // filterClass = $el.attr('filter');
-            // $el.toggleClass('active');
-            // if ($el.hasClass('active')) {
-            //     $('.'+filterClass).each (function(i) {
-            //         $elRow = $(this);
-            //         $elRow.slideDown();
-            //         $elRow.children('.ss-left').animate( {
-            //             'left':'0%'
-            //         });
-            //         $elRow.children('.ss-right').animate( {
-            //             'right':'0%'
-            //         });
-            //     });
-            // } else {
-            //     $('.'+filterClass).each (function(k) {
-            //         $elRow = $(this);
-            //         $elRow.children('.ss-left').animate( {
-            //             'left':'-50%'
-            //         },'slow',function() {
-            //             $(this).parent().slideUp(); //addClass('hide');
-            //         });
-            //         $elRow.children('.ss-right').animate( {
-            //             'right':'-50%'
-            //         },'slow',function() {
-            //             // $(this).addClass('hide');
-            //         });
-            //     });
-            // }
-        // });
     });
 
    $('.ss-row').each(function(i) {
