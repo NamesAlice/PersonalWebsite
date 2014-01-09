@@ -244,9 +244,9 @@ $(function() {
         var $el = $(this).find('.tags.circle');
 
         n = $el.children().length;
-        rotateVal = 180 / n;
+        rotateVal = 200 / n;
 
-        circleSize = $el.parent().height()/2 + 70;
+        circleSize = $el.parent().height()/2 + 80;
         isOnLeft = $(this).hasClass('ss-left');
 
         $el.children().each(function(j) {
@@ -262,6 +262,8 @@ $(function() {
             $tagEl.css('-ms-transform', 'rotate(-'+ rotateDeg +'deg) translate('+circleSize+'px)');
             $tagEl.css('transform', 'rotate(-'+ rotateDeg +'deg) translate('+circleSize+'px)');
             $tagEl.children('span').css('-webkit-transform', 'rotate('+ rotateDeg +'deg)');
+            $tagEl.children('span').css('-ms-transform', 'rotate('+ rotateDeg +'deg)');
+            $tagEl.children('span').css('transform', 'rotate('+ rotateDeg +'deg)');
 
         });
     

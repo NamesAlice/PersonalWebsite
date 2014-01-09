@@ -81,8 +81,17 @@ h1{
   left: 0;
   z-index: 10;
   width: 100%;
+  min-width: 920px;
   @include filter-gradient(#ffffff, #ffffff, vertical);
   @include background-image(linear-gradient(top, rgba(255,255,255,1) 5%,rgba(255,255,255,0) 100%));
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  .header .inner{
+    h1 {
+      margin-top: -0.4em;
+    }
+  }
 }
 
 .header .inner{
@@ -94,7 +103,6 @@ h1{
     font-weight: 400;
     font-size: 3em;
     color: white;
-    margin-top: -0.3em;
     margin-right: 20px;
     float: left;
   }
@@ -136,28 +144,26 @@ h1{
   margin: 15px 20px;
   height: 60px;
   padding: 10px 50px;
-  min-width: 1080px;
   width: calc(100% - 140px);
   width: -webkit-calc(100% - 140px);
   width: -moz-calc(100% - 140px);
   width: -o-calc(100% - 140px);
   background-color: rgba(49, 192, 196, 0.9);
   p {
-    visibility: hidden;
+    display: none;
   }
 }
 
 .header.header-show .inner{
   min-height: 250px;
   padding: 50px 50px;
-  min-width: 1080px;
   width: calc(100% - 200px);
   width: -webkit-calc(100% - 100px);
   width: -moz-calc(100% - 100px);
   width: -o-calc(100% - 100px);
   background-color: #006063;
   p {
-    visibility: visible;
+    display: block;
   }
   .down-arrow::after {
     display: block;
@@ -186,7 +192,22 @@ h1{
 
 .header .right-col{
   width: 50%;
+  min-width: 540px;
   float: left;
+}
+
+.header .about {
+  max-width: 900px;
+}
+
+@media all and (max-width: 1200px) {
+  .header .left-col {
+    width: auto;
+    .contact {
+      display: none;
+    }
+  }
+
 }
 
 .container .header .ss-links{
@@ -203,7 +224,7 @@ h1{
   .icon-bigger:before, .icon-bigger:after,{
     font-size: 25px;
     vertical-align: middle;
-    position: center;
+    text-align: center;
   }
 
   .flaticon-code3:before, .flaticon-code3:after,{
@@ -226,13 +247,14 @@ h1{
   border-radius: 50%;
   border: 2px solid white;
   display: block;
+  position: relative;
   @include transition(all 0.5s linear);
 
 }
 .ss-links a:hover{
   background: rgba(36, 197, 191, 0.75);
   span {
-    margin-left: 55px;
+    left: 55px;
     color: #fff;
     visibility: visible;
   }
@@ -253,9 +275,10 @@ h1{
 .ss-links a span{
   font-weight: normal;
   white-space: nowrap;
-  margin-left: 20px;
   visibility: hidden;
   position: absolute;
+  left: 40px;
+  top: 0;
   color: rgba(0,0,0,0.0);
   @include transition( all 0.6s linear);
 }
@@ -272,6 +295,7 @@ h1{
 .tags.circle div {
   height: 70px;
   width: 70px;
+  line-height: 70px;
   display: block;
   border-radius: 50%;
   overflow: hidden;
@@ -282,12 +306,42 @@ h1{
   color: black;
 
   span {
-    height: 70px;
-    width: 70px;
+    height: inherit;
+    width: inherit;
     display: block;
     position: absolute;
-    line-height: 70px;
+    line-height: inherit;
   }
+}
+
+.tags.circle div.web ,
+.tags.circle div.debug ,
+.tags.circle div.osx ,
+.tags.circle div.android {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+}
+
+.tags.circle div.algo ,
+.tags.circle div.assembly {
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+}
+
+.tags.circle div.js,
+.tags.circle div.svn,
+.tags.circle div.xml,
+.tags.circle div.vim,
+.tags.circle div.cpp,
+.tags.circle div.git,
+.tags.circle div.php,
+.tags.circle div.csharp,
+.tags.circle div.c {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
 }
 
 .ss-large .tags.circle div{
