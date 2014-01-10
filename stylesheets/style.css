@@ -130,24 +130,44 @@
 }
 
 /* line 96, ../sass/style.scss */
+.ss-circle.website2 {
+  background: #969696 url("../images/logos/website2.png") center no-repeat;
+}
+
+/* line 99, ../sass/style.scss */
+.ss-circle.learn-code {
+  background: #969696 url("../images/logos/learn-code-game1.png") center no-repeat;
+}
+
+/* line 102, ../sass/style.scss */
+.ss-circle.imagesearch {
+  background: lightgrey url("../images/logos/imagesearch.png") center no-repeat;
+}
+
+/* line 105, ../sass/style.scss */
+.ss-circle.website1 {
+  background: #fff center no-repeat;
+}
+
+/* line 109, ../sass/style.scss */
 .ss-small .ss-circle {
   width: 100px;
   height: 100px;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .ss-medium .ss-circle {
   width: 200px;
   height: 200px;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .ss-large .ss-circle {
   width: 300px;
   height: 300px;
 }
 
-/* line 108, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .ss-circle-deco:before {
   width: 24%;
   height: 0px;
@@ -161,7 +181,7 @@
   margin-top: -3px;
 }
 
-/* line 119, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .ss-circle-deco:after {
   width: 0px;
   height: 0px;
@@ -173,41 +193,41 @@
   margin-top: -10px;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .ss-left .ss-circle-deco:before {
   right: 2%;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .ss-right .ss-circle-deco:before {
   left: 2%;
 }
 
-/* line 135, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .ss-left .ss-circle-deco:after {
   right: 0;
   border-right: 10px solid rgba(17, 17, 22, 0.8);
 }
 
-/* line 139, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .ss-right .ss-circle-deco:after {
   left: 0;
   border-left: 10px solid rgba(17, 17, 22, 0.8);
 }
 
-/* line 143, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .ss-left .ss-circle {
   float: right;
   margin: 10% 25% 10% 0;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .ss-right .ss-circle {
   float: left;
   margin: 10% 0 10% 25%;
 }
 
-/* line 152, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .ss-container .description {
   margin-top: 34px;
   padding: 30px 15px;
@@ -215,27 +235,27 @@
   text-shadow: 1px 1px 1px rgba(12, 120, 120, 0.8);
 }
 
-/* line 158, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .ss-container .ss-medium .description {
   margin-top: 82px;
 }
 
-/* line 161, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .ss-container .ss-large .description {
   margin-top: 133px;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .ss-container .ss-left .description {
   border-right: 5px solid rgba(181, 255, 255, 0.8);
 }
 
-/* line 167, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .ss-container .ss-right .description {
   border-left: 5px solid rgba(181, 255, 255, 0.8);
 }
 
-/* line 170, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .ss-container .description span {
   color: rgba(255, 255, 255, 0.8);
   font-size: 1em;
@@ -243,14 +263,14 @@
   padding-bottom: 5px;
 }
 
-/* line 176, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .ss-container .description a {
   font-size: 28px;
   color: rgba(255, 255, 255, 0.9);
   display: block;
 }
 
-/* line 181, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .ss-container .description a:hover {
   color: white;
 }

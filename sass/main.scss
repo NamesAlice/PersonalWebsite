@@ -303,7 +303,7 @@ h1{
   border: rgba(61, 64, 85, 0.3) 8px solid;
   background-color: #fff;
   position: absolute;
-  color: black;
+  color: rgb(120,120,120);
 
   span {
     height: inherit;
@@ -324,6 +324,7 @@ h1{
 }
 
 .tags.circle div.algo ,
+.tags.circle div.OS ,
 .tags.circle div.assembly {
   height: 90px;
   width: 90px;
