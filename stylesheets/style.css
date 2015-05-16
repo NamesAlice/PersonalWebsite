@@ -59,8 +59,8 @@
   border-radius: 50%;
   display: block;
   text-align: left;
-  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7) inset, 0px 0px 0px 12px rgba(61, 64, 85, 0.3);
   -moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7) inset, 0px 0px 0px 12px rgba(61, 64, 85, 0.3);
+  -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7) inset, 0px 0px 0px 12px rgba(61, 64, 85, 0.3);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7) inset, 0px 0px 0px 12px rgba(61, 64, 85, 0.3);
   position: static;
 }
@@ -70,118 +70,123 @@
 }
 
 /* line 60, ../sass/style.scss */
-.ss-circle.microsoft {
-  background: white url("../images/logos/microsoft.png") center no-repeat;
+.ss-circle.pinterest {
+  background: #fff url("../images/logos/pinterest.png") center no-repeat;
 }
 
 /* line 63, ../sass/style.scss */
-.ss-circle.xtreme-labs {
-  background: white url("../images/logos/XtremeLabs.png") center no-repeat;
+.ss-circle.microsoft {
+  background: #fff url("../images/logos/microsoft.png") center no-repeat;
 }
 
 /* line 66, ../sass/style.scss */
-.ss-circle.myplanet {
-  background: white url("../images/logos/myplanet.png") center no-repeat;
+.ss-circle.xtreme-labs {
+  background: #fff url("../images/logos/XtremeLabs.png") center no-repeat;
 }
 
 /* line 69, ../sass/style.scss */
-.ss-circle.uwaterloo {
-  background: white url("../images/logos/uwaterloo.png") center no-repeat;
+.ss-circle.myplanet {
+  background: #fff url("../images/logos/myplanet.png") center no-repeat;
 }
 
 /* line 72, ../sass/style.scss */
-.ss-circle.google {
-  background: white url("../images/logos/google.png") center no-repeat;
+.ss-circle.uwaterloo {
+  background: #fff url("../images/logos/uwaterloo.png") center no-repeat;
 }
 
 /* line 75, ../sass/style.scss */
-.ss-circle.velocity {
-  background: black url("../images/logos/velocity-logo.png") center no-repeat;
+.ss-circle.google {
+  background: #fff url("../images/logos/google.png") center no-repeat;
 }
 
 /* line 78, ../sass/style.scss */
-.ss-circle.angelhack {
-  background: white url("../images/logos/angelhack.png") center no-repeat;
+.ss-circle.velocity {
+  background: #000 url("../images/logos/velocity-logo.png") center no-repeat;
 }
 
 /* line 81, ../sass/style.scss */
-.ss-circle.linkedin {
-  background: white url("../images/logos/linkedin.png") center no-repeat;
+.ss-circle.angelhack {
+  background: #fff url("../images/logos/angelhack.png") center no-repeat;
 }
 
 /* line 84, ../sass/style.scss */
-.ss-circle.nasa {
-  background: black url("../images/logos/nasa-space-apps.jpg") center no-repeat;
+.ss-circle.linkedin {
+  background: #fff url("../images/logos/linkedin.png") center no-repeat;
 }
 
 /* line 87, ../sass/style.scss */
-.ss-circle.gracehopper {
-  background: black url("../images/logos/GraceHopperConf.jpg") center no-repeat;
+.ss-circle.nasa {
+  background: #000 url("../images/logos/nasa-space-apps.jpg") center no-repeat;
 }
 
 /* line 90, ../sass/style.scss */
-.ss-circle.uwaterloo-s {
-  background: white url("../images/logos/uwaterloo-s.png") center no-repeat;
+.ss-circle.gracehopper {
+  background: #000 url("../images/logos/GraceHopperConf.jpg") center no-repeat;
 }
 
 /* line 93, ../sass/style.scss */
-.ss-circle.uwaterloo-eng {
-  background: white url("../images/logos/WaterlooEngineering.png") center no-repeat;
+.ss-circle.uwaterloo-s {
+  background: #fff url("../images/logos/uwaterloo-s.png") center no-repeat;
 }
 
 /* line 96, ../sass/style.scss */
+.ss-circle.uwaterloo-eng {
+  background: #fff url("../images/logos/WaterlooEngineering.png") center no-repeat;
+}
+
+/* line 99, ../sass/style.scss */
 .ss-circle.website2 {
   background: #969696 url("../images/logos/website2.png") center no-repeat;
 }
 
-/* line 99, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .ss-circle.learn-code {
   background: #969696 url("../images/logos/learn-code-game1.png") center no-repeat;
 }
 
-/* line 102, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .ss-circle.imagesearch {
-  background: lightgrey url("../images/logos/imagesearch.png") center no-repeat;
+  background: lightGrey url("../images/logos/imagesearch.png") center no-repeat;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .ss-circle.website1 {
   background: #fff center no-repeat;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .ss-small .ss-circle {
   width: 100px;
   height: 100px;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 .ss-medium .ss-circle {
   width: 200px;
   height: 200px;
 }
 
-/* line 117, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .ss-large .ss-circle {
   width: 300px;
   height: 300px;
 }
 
-/* line 121, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .ss-circle-deco:before {
   width: 24%;
   height: 0px;
   border-bottom: 5px dotted rgba(14, 105, 156, 0.5);
-  -webkit-box-shadow: 0px 1px 1px white;
-  -moz-box-shadow: 0px 1px 1px white;
-  box-shadow: 0px 1px 1px white;
+  -moz-box-shadow: 0px 1px 1px #fff;
+  -webkit-box-shadow: 0px 1px 1px #fff;
+  box-shadow: 0px 1px 1px #fff;
   position: absolute;
   top: 50%;
   content: '';
   margin-top: -3px;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .ss-circle-deco:after {
   width: 0px;
   height: 0px;
@@ -193,41 +198,41 @@
   margin-top: -10px;
 }
 
-/* line 142, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .ss-left .ss-circle-deco:before {
   right: 2%;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .ss-right .ss-circle-deco:before {
   left: 2%;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .ss-left .ss-circle-deco:after {
   right: 0;
   border-right: 10px solid rgba(17, 17, 22, 0.8);
 }
 
-/* line 152, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .ss-right .ss-circle-deco:after {
   left: 0;
   border-left: 10px solid rgba(17, 17, 22, 0.8);
 }
 
-/* line 156, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .ss-left .ss-circle {
   float: right;
   margin: 10% 25% 10% 0;
 }
 
-/* line 160, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .ss-right .ss-circle {
   float: left;
   margin: 10% 0 10% 25%;
 }
 
-/* line 165, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .ss-container .description {
   margin-top: 34px;
   padding: 30px 15px;
@@ -235,27 +240,27 @@
   text-shadow: 1px 1px 1px rgba(12, 120, 120, 0.8);
 }
 
-/* line 171, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .ss-container .ss-medium .description {
   margin-top: 82px;
 }
 
-/* line 174, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .ss-container .ss-large .description {
   margin-top: 133px;
 }
 
-/* line 177, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .ss-container .ss-left .description {
   border-right: 5px solid rgba(181, 255, 255, 0.8);
 }
 
-/* line 180, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .ss-container .ss-right .description {
   border-left: 5px solid rgba(181, 255, 255, 0.8);
 }
 
-/* line 183, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .ss-container .description span {
   color: rgba(255, 255, 255, 0.8);
   font-size: 1em;
@@ -263,14 +268,14 @@
   padding-bottom: 5px;
 }
 
-/* line 189, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .ss-container .description a {
   font-size: 28px;
   color: rgba(255, 255, 255, 0.9);
   display: block;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .ss-container .description a:hover {
   color: white;
 }

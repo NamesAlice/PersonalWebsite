@@ -246,7 +246,7 @@ $(function() {
         n = $el.children().length;
         rotateVal = 200 / n;
 
-        circleSize = $el.parent().height()/2 + 80;
+        circleSize = $el.parent().height()/2 + 90;
         isOnLeft = $(this).hasClass('ss-left');
 
         $el.children().each(function(j) {

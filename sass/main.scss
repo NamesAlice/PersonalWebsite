@@ -86,13 +86,13 @@ h1{
   @include background-image(linear-gradient(top, rgba(255,255,255,1) 5%,rgba(255,255,255,0) 100%));
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) { 
+/*@media screen and (-webkit-min-device-pixel-ratio:0) { 
   .header .inner{
     h1 {
       margin-top: -0.4em;
     }
   }
-}
+}*/
 
 .header .inner{
   margin: auto;
@@ -104,6 +104,7 @@ h1{
     font-size: 3em;
     color: white;
     margin-right: 20px;
+    margin-top: 10px;
     float: left;
   }
   .contact {
@@ -317,6 +318,7 @@ h1{
 .tags.circle div.web ,
 .tags.circle div.debug ,
 .tags.circle div.osx ,
+.tags.circle div.javascript ,
 .tags.circle div.android {
   height: 80px;
   width: 80px;
