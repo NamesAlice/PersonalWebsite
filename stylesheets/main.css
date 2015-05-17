@@ -118,7 +118,7 @@ h1 {
 /* line 97, ../sass/main.scss */
 .header .inner {
   margin: auto;
-  background: url("../images/celestial010-t.png");
+  background: url("../images/celestial010-t1.png");
   overflow: hidden;
 }
 /* line 101, ../sass/main.scss */
@@ -489,55 +489,60 @@ h1 {
   border: 0;
 }
 
+/* line 417, ../sass/main.scss */
+.description li {
+  margin-bottom: .5em;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
 /* standard */
-/* line 424, ../sass/main.scss */
+/* line 428, ../sass/main.scss */
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
 
-/* line 430, ../sass/main.scss */
+/* line 434, ../sass/main.scss */
 .post ul, .post ol {
   margin-left: 1.35em;
 }
 
-/* line 434, ../sass/main.scss */
+/* line 438, ../sass/main.scss */
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
 
-/* line 440, ../sass/main.scss */
+/* line 444, ../sass/main.scss */
 .post pre code {
   border: none;
 }
 
 /* terminal */
-/* line 445, ../sass/main.scss */
+/* line 449, ../sass/main.scss */
 .post pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }
 
-/* line 451, ../sass/main.scss */
+/* line 455, ../sass/main.scss */
 .post pre.terminal code {
   background-color: #333;
 }
 
-/* line 455, ../sass/main.scss */
+/* line 459, ../sass/main.scss */
 .hide {
   display: none;
 }
 
-/* line 459, ../sass/main.scss */
+/* line 463, ../sass/main.scss */
 .ss-row-title h2 {
   color: rgba(15, 156, 160, 0.8);
   text-shadow: 1px 0px 1px rgba(106, 131, 163, 0.5);

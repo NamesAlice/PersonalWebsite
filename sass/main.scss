@@ -96,7 +96,7 @@ h1{
 
 .header .inner{
   margin: auto;
-  background: url('../images/celestial010-t.png');
+  background: url('../images/celestial010-t1.png');
   overflow: hidden;
   h1 {
     font-family: 'Josefin Sans', 'Open Sans', Arial, sans-serif;
@@ -413,6 +413,10 @@ h1{
 .footer .rss img {
   border: 0;
 }
+
+.description li {
+  margin-bottom: .5em;
+  }
 
 /*****************************************************************************/
 /*
